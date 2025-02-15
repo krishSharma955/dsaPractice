@@ -22,6 +22,7 @@ public class AppearsOnce {
         }
         return xor;
     } //TC-> O(N), SC-> O(1) {XOR of a number with itself is zero}
+    
     public static void main(String[] args) {
         int arr[] = {4,1,2,1,2};
         // System.out.println(onceBrute(arr));
